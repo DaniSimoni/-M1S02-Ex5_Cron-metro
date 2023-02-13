@@ -12,56 +12,8 @@ const form = document.getElementById('form');
 
 button.addEventListener('click', function(event) {
     event.preventDefault();
-    setTimeout(DezSegundos, 1000*3);
-
+    setTimeout(DezSegundos, 1000*10);
 });
 
 
 
-
-   
-   
- 
-
-  
-
-
-
-
-/*   function DezSegundos() {
-    e.preventDefault();
-    alert("Seu tempo acabou!! Tente novamente!!");
-}
-setTimeout(DezSegundos, 1000*10); */
-
-
-
-
-
-/* 
-function clicou () {
-    document.getElementById("myBtn").addEventListener("click", displayDate);
-    element.addEventListener("mrBtn", function(){ alert("Hello World!"); });
-
-    const time = 0;
-
-    if (clicou === true) {
-        DezSegundos();
-} else {
-        refresh();
-
-}};
-
-
-
-function DezSegundos() {
-    e.preventDefault();
-
-
-    alert("Seu tempo acabou!! Tente novamente!!");
-}
-setTimeout(DezSegundos, 1000*10);
-
-
-
- */
